@@ -3,7 +3,9 @@ This is a Decision Tree implementation with Python which uses information gain t
 
 When $Y$ is the target attribute and $X$ is an attribute, the information gain is defined as whera $H$ is the entropy function:
     
-<p style="text-align: center;">InfoGain(Y, X) = H(Y) - H(Y|X)</p>
+```math
+\text{InfoGain}(Y, X) = H(Y) - H(Y|X)
+```
 
 ## Installing
 ```bash
