@@ -19,12 +19,12 @@ $ python decision_tree.py [args...]
 Where above [args...] is a placeholder for six command-line arguments: `<train input>`, `<test input>`,
 `<max depth>`, `<train out>`, `<test out>`, `<metrics out>`. These arguments are described in detail below:
 
-1. `<train input>`: Path to the training input .tsv file.
-2. `<test input>`: Path to the test input .tsv file.
-3. `<max depth>`: Maximum depth to which the tree should be built.
-4. `<train out>` Path of output .txt file to which the predictions on the training data should be written.
-5. `<test out>`: Path of output .txt file to which the predictions on the test data should be written.
-6. `<metrics out>`: Path of the output .txt file to which metrics such as train and test error should be written.
+1. _train input_: Path to the training input .tsv file.
+2. _test input_: Path to the test input .tsv file.
+3. _max depth_: Maximum depth to which the tree should be built.
+4. _train out_` Path of output .txt file to which the predictions on the training data should be written.
+5. _test out_: Path of output .txt file to which the predictions on the test data should be written.
+6. _metrics out_: Path of the output .txt file to which metrics such as train and test error should be written.
 
 ## Output
 The output of the program is written to the files specified by the command-line arguments `<train out>`, `<test out>`, and `<metrics out>`. Furthermore,
@@ -45,7 +45,18 @@ A minimum tree printing node can be explained as:
 ```
 Note that print functionality only works for binary classification problems for now.
 
+## Further Improvements
+- [ ] Add support for printing trees of multi-class classification problems.
+- [ ] Add support for continuous attributes.
+- [ ] Add support for pruning.
+- [ ] Add support for random forests.
+- [ ] Add support for cross-validation.
+
+<br>
+
 ---
+
+<br>
 
 ## Example Usage
 ```bash
