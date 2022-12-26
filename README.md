@@ -2,9 +2,8 @@
 This is a Decision Tree implementation with Python which uses information gain to split attributes.
 
 When $Y$ is the target attribute and $X$ is an attribute, the information gain is defined as whera $H$ is the entropy function:
-$$
-    \text{InfoGain}(Y, X) = H(Y) - H(Y|X)
-$$
+    
+<p style="text-align: center;">InfoGain(Y, X) = H(Y) - H(Y|X)</p>
 
 ## Installing
 ```bash
@@ -32,7 +31,7 @@ The output of the program is written to the files specified by the command-line 
 the tree is also printed to the console with using `DecisionTreeLearner::print_tree()`. 
 
 A minimum tree printing node can be explained as:
-```txt
+```
 [X 0/Y 1]
 | ATTRIBUTE_A = 0: [X 0/Y 1]
 | | ATTRIBUTE_B = 0: [X 0/Y 1]
